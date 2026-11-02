@@ -1,23 +1,4 @@
-# Lab Hibernate & JPA — 3 exercices (stock, projets, état civil)
 
-> Travail réalisé par **Ahmed BEN IDAR** dans le cadre du cours
-> *Architecture Microservices : Conception, Déploiement et Orchestration*.
-> Projet Maven multi-modules, exécuté réellement contre MySQL (XAMPP / MariaDB 10.4).
-
-Ce dépôt contient les **trois exercices** demandés (le quiz n'est volontairement pas traité) :
-
-| Module | Thème | Base de données | Programme de test |
-|---|---|---|---|
-| `ex1-stock` | Gestion du stock d'un magasin informatique | `stock_atlas_info` | `ma.projet.test.TestStock` |
-| `ex2-projets` | Gestion de projets d'un bureau d'études | `bureau_etudes_atlas` | `ma.projet.test.TestProjets` |
-| `ex3-etat-civil` | Gestion de l'état civil et des mariages | `etat_civil_souss` | `ma.projet.test.TestEtatCivil` |
-
-Toutes les captures de ce README sont des **captures de résultats réels** : elles ont été
-produites à partir de l'exécution effective des programmes sur MySQL.
-Les sorties brutes sont également versionnées dans [`docs/logs/`](docs/logs) et les images
-dans [`docs/screenshots/`](docs/screenshots).
-
----
 
 ## 1. Arborescence du projet
 
