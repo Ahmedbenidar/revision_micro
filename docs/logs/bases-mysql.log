@@ -1,0 +1,61 @@
+mysql> -- Verification des bases creees pour le TP
+mysql> USE stock_atlas_info;
++----------------------------+
+| Tables_in_stock_atlas_info |
++----------------------------+
+| categorie                  |
+| commande                   |
+| ligne_commande             |
+| produit                    |
++----------------------------+
+
+mysql> USE bureau_etudes_atlas;
++-------------------------------+
+| Tables_in_bureau_etudes_atlas |
++-------------------------------+
+| employe                       |
+| employe_tache                 |
+| projet                        |
+| tache                         |
++-------------------------------+
+
+mysql> USE etat_civil_souss;
++----------------------------+
+| Tables_in_etat_civil_souss |
++----------------------------+
+| femme                      |
+| homme                      |
+| mariage                    |
++----------------------------+
+
+
+mysql> -- Contenu reel des tables apres execution des programmes de test
+mysql> USE stock_atlas_info;
++----------------+-----------+
+| table_name     | nb_lignes |
++----------------+-----------+
+| categorie      |         3 |
+| produit        |         6 |
+| commande       |         4 |
+| ligne_commande |        10 |
++----------------+-----------+
+
+mysql> USE bureau_etudes_atlas;
++---------------+-----------+
+| table_name    | nb_lignes |
++---------------+-----------+
+| employe       |         5 |
+| projet        |         3 |
+| tache         |        10 |
+| employe_tache |        10 |
++---------------+-----------+
+
+mysql> USE etat_civil_souss;
++------------+-----------+
+| table_name | nb_lignes |
++------------+-----------+
+| homme      |         5 |
+| femme      |        10 |
+| mariage    |        13 |
++------------+-----------+
+
